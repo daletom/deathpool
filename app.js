@@ -10,7 +10,7 @@
  			this.deathChoice = 'dead'
  		}
  	}
- })
+ });
 
  new Vue({
 	el: '#app-jon'
