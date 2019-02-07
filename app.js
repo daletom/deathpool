@@ -6,7 +6,7 @@
  		}
  	},
  	methods: {
- 		changedeath: function(){
+ 		changeDeath: function(){
  			this.deathChoice = 'dead'
  		}
  	}
