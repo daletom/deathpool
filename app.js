@@ -13,14 +13,14 @@
  });
 
  new Vue({
-	el: '#app-jon'
+	el: '#app-jon',
 	data: {
 		name: 'Jon Snow'
 	}
 });
 
   new Vue({
-	el: '#app-sansa'
+	el: '#app-sansa',
 	data: {
 		name: 'Sansa Stark'
 	}
