@@ -15,7 +15,7 @@
  new Vue({
 	el: '#app-jon',
 	data: {
-		name: 'Jon Snow'
+		name: 'Jon Snow', avatar: 'https:tom.imgix.net/jonsnow.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress'
 	}
 });
 
