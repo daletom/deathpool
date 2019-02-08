@@ -25,3 +25,10 @@
 		name: 'Sansa Stark'
 	}
 });
+
+    new Vue({
+	el: '#app-aya',
+	data: {
+		name: 'Aya Stark'
+	}
+});
