@@ -1,5 +1,5 @@
  Vue.component('death', {
- 	template: '<p>They will {{ deathChoice }}. <button v-on:click="changeDeath">Live or Die?</button></p>',
+ 	template: '<p class="tp">They will {{ deathChoice }}. <button class="button" v-on:click="changeDeath">Live or Die?</button></p>',
  	data: function(){
  		return {
  			deathChoice: 'live'
