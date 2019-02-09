@@ -32,3 +32,24 @@
 		name: 'Aya Stark'
 	}
 });
+
+     new Vue({
+	el: '#app-jamie',
+	data: {
+		name: 'Jamie Lannister', avatar: 'https://tom.imgix.net/jonsnow.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+  new Vue({
+	el: '#app-cercie',
+	data: {
+		name: 'Cercie Lannister', avatar: 'https://tom.imgix.net/sansastark.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-mountain',
+	data: {
+		name: 'The Mountain'
+	}
+});
