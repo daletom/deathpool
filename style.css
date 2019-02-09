@@ -7,7 +7,7 @@ p {
   display: flex;
   justify-content: space-around;
   background-image: url('https://tom.imgix.net/stark_bg.png');
-  height: 500px;
+  height: 450px;
 }
 
 .wrap {
