@@ -1,5 +1,5 @@
  Vue.component('death', {
- 	template: '<p class="tp">They will {{ deathChoice }}. <button class="button" v-on:click="changeDeath">Live or Die?</button></p>',
+ 	template: '<p class="tp">They will {{ deathChoice }}. <button class="button" v-on:click="changeDeath">Click for Death</button></p>',
  	data: function(){
  		return {
  			deathChoice: 'live'
@@ -22,7 +22,7 @@
   new Vue({
 	el: '#app-sansa',
 	data: {
-		name: 'Sansa Stark'
+		name: 'Sansa Stark', avatar: 'https://tom.imgix.net/sansastark.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress'
 	}
 });
 
