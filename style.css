@@ -5,6 +5,8 @@ p {
 
 .box {
   display: flex;
+  justify-content: space-around;
+  background-image: url('https://tom.imgix.net/stark_bg.png');
 }
 
 .wrap {
