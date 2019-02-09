@@ -3,13 +3,6 @@ p {
   padding: 15px;
 }
 
-.box {
-  display: flex;
-  justify-content: space-around;
-  background-image: url('https://tom.imgix.net/stark_bg.png');
-  height: 450px;
-}
-
 .wrap {
   width: 400px;
   height: 400px;
@@ -19,12 +12,16 @@ p {
   background: url(https://tom.imgix.net/stark_bg.png?auto=format,compress&h=375&blur=15);
   width: 100%;
   height: 375px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .targariyen {
   background: url(https://tom.imgix.net/targaryen_bg.jpg?auto=format,compress&h=375&blur=15);
   width: 100%;
   height: 375px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .die {
