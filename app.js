@@ -48,9 +48,9 @@
 });
 
   new Vue({
-	el: '#app-cersie',
+	el: '#app-cersei',
 	data: {
-		name: 'Cersie Lannister', avatar: 'https://tom.imgix.net/cersie.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+		name: 'Cersei Lannister', avatar: 'https://tom.imgix.net/cersei.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
 
