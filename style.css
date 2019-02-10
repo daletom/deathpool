@@ -16,6 +16,14 @@ p {
   justify-content: space-around;
 }
 
+.misc {
+  background: url(https://tom.imgix.net/misc_bg.jpg?auto=format,compress&h=475&blur=15);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .lannister {
   background: url(https://tom.imgix.net/lannister_bg.png?auto=format,compress&h=475&blur=15);
   width: 100%;

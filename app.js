@@ -153,9 +153,9 @@
 });
 
     new Vue({
-	el: '#app-clegane',
+	el: '#app-hound',
 	data: {
-		name: 'Sandor Clegane', avatar: 'https://tom.imgix.net/sandorclegane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+		name: 'The Hound', avatar: 'https://tom.imgix.net/sandorclegane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
 
@@ -163,5 +163,40 @@
 	el: '#app-gendry',
 	data: {
 		name: 'Gendry', avatar: 'https://tom.imgix.net/gendry.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-varys',
+	data: {
+		name: 'Varys', avatar: 'https://tom.imgix.net/varys.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-brienne',
+	data: {
+		name: 'Brienne of Tarth', avatar: 'https://tom.imgix.net/briennetarth.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-davos',
+	data: {
+		name: 'Davos Seaworth', avatar: 'https://tom.imgix.net/davosseaworth.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-bronn',
+	data: {
+		name: 'Bronn', avatar: 'https://tom.imgix.net/bronn.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-podrick',
+	data: {
+		name: 'Podrick Payne', avatar: 'https://tom.imgix.net/podrickpayne.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
