@@ -50,7 +50,7 @@
   new Vue({
 	el: '#app-cersie',
 	data: {
-		name: 'Cersie Lannister', avatar: 'https://tom.imgix.net/cersielannister.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+		name: 'Cersie Lannister', avatar: 'https://tom.imgix.net/cersie.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
 
