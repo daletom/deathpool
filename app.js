@@ -109,3 +109,59 @@
 		name: 'Theon Greyjoy', avatar: 'https://tom.imgix.net/theongreyjoy.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
+
+    new Vue({
+	el: '#app-jorah',
+	data: {
+		name: 'Jorah Mormont', avatar: 'https://tom.imgix.net/jorahmormont.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-melisandre',
+	data: {
+		name: 'Melisandre', avatar: 'https://tom.imgix.net/melisandre.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-samwell',
+	data: {
+		name: 'Samwell Tarly', avatar: 'https://tom.imgix.net/samwelltarly.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-gilly',
+	data: {
+		name: 'Gilly', avatar: 'https://tom.imgix.net/gilly.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-sam',
+	data: {
+		name: 'Little Sam', avatar: 'https://tom.imgix.net/sam.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-beric',
+	data: {
+		name: 'Beric Dondarrion', avatar: 'https://tom.imgix.net/bericdondarrion.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-clegane',
+	data: {
+		name: 'Sandor Clegane', avatar: 'https://tom.imgix.net/sandorclegane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
+
+    new Vue({
+	el: '#app-gendry',
+	data: {
+		name: 'Gendry', avatar: 'https://tom.imgix.net/gendry.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+	}
+});
