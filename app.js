@@ -29,14 +29,14 @@
     new Vue({
 	el: '#app-arya',
 	data: {
-		name: 'Arya Stark', avatar: 'https://tom.imgix.net/aryastark.jpg?w=300&h=33&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+		name: 'Arya Stark', avatar: 'https://tom.imgix.net/aryastark.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
 
         new Vue({
 	el: '#app-bran',
 	data: {
-		name: 'Bran Stark', avatar: 'https://tom.imgix.net/branstark.jpg?w=300&h=33&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+		name: 'Bran Stark', avatar: 'https://tom.imgix.net/branstark.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
 	}
 });
 
