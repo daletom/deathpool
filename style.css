@@ -9,7 +9,7 @@ p {
 }
 
 .stark {
-  background: url(https://tom.imgix.net/stark_bg.png?auto=format,compress&h=475&blur=15);
+  background: url(https://tom.imgix.net/stark_bg.png?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
   width: 100%;
   height: 475px;
   display: flex;
