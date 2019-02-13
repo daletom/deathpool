@@ -68,6 +68,10 @@ h2 {
   color: white;
 }
 
+.intro h2 {
+  color: black;
+}
+
 .die {
 	background: red;
 	color: white;
