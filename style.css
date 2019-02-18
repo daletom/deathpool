@@ -101,7 +101,7 @@ header {
 }
 .header-banner {
     background-color: #333;
-    background-image: url('https://cdn1us.denofgeek.com/sites/denofgeekus/files/game_of_thrones_title_card.jpg');
+    background-image: url('https://tom.imgix.net/got_title.jpg?w=1350&h=450&fit=crop&auto=format,compress');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
