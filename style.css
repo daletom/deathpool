@@ -109,11 +109,6 @@ header {
     height: 450px;
 }
 
-button.active {
-  cursor: pointer;
-  background-color: #4c7ef3;
-}
-
 header h1 {
     background-color: rgba(18,72,120, 0.8);
     color: #fff;
