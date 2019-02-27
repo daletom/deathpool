@@ -1,13 +1,13 @@
  Vue.component('death', {
- 	template: '<p class="tp">They will {{ deathChoice }}. <button class="button" v-on:click="changeDeath">Click for Death</button></p>',
+ 	template: '<p class="tp"><span v-if="choice">They will live.</span><span v-else>They will die.</spand> <button class="button" v-on:click="changeDeath">Click to Change</button></p>',
  	data: function(){
  		return {
- 			deathChoice: 'live'
+ 			choice: true
  		}
  	},
  	methods: {
  		changeDeath: function(){
- 			this.deathChoice = 'die'
+ 			this.choice = !this.choice
  		}
  	}
  });
