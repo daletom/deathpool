@@ -300,7 +300,18 @@
     </form>
 
 </div>
-	<div class="regform" id="register">
+      <div class="responses">
+    <section class="section" id="results">
+      <div class="box">
+        <ul>
+          <li v-for="(item, k) in form">
+            <strong>{{ k }}:</strong> {{ item }}</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+      </div>
+      <div class="regform" id="register">
       <form action="" id="login">
         <h2 text-transform: uppercase; font-size: 18px; margin-bottom: 10px;>Submit Entry</h2>
         
@@ -318,18 +329,6 @@
         
           <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
       </form>
-      <div class="responses">
-    <section class="section" id="results">
-      <div class="box">
-        <ul>
-          <li v-for="(item, k) in form">
-            <strong>{{ k }}:</strong> {{ item }}</li>
-        </ul>
-
-      </div>
-    </section>
-  </div>
-      </div>
 </body>
 <script>
 	$(window).scroll(function(){
