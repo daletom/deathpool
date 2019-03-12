@@ -19,163 +19,286 @@
 <h1>Welcome to the Game of Thrones (GoT) Deathpool!</h1>
 <h2>Rules: You need to pick ...[more to come]</h2>
 	</div>
-<div class="stark">
-	<div id="app-jon" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2 color=white>{{ name }}</h2>
+<div id="app-deathpool">
+  <form class="chooser">
+    <div class="stark">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.jonDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.jonDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarJon"/> 
+  		<h2 color=white>Jon Snow</h2>
 	</div>
-	<div id="app-sansa" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.sansaDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.sansaDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarSansa"/>
+		<h2>Sansa Stark</h2>
 	</div>
-	<div id="app-arya" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.aryaDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.aryaDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarArya"/>
+		<h2>Arya Stark</h2>
 	</div>
-		<div id="app-bran" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.branDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.branDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarBran"/>
+		<h2>Bran Stark</h2>
+      </div>
+    </div>
+      <div class="lannister">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.jaimeDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.jaimeDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarJaime"/> 
+  		<h2 color=white>{{jaimeName}}</h2>
 	</div>
-</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.cerseiDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.cerseiDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarCersei"/>
+		<h2>{{cerseiName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.tyrionDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.tyrionDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarTyrion"/>
+		<h2>{{tyrionName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.mountainDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.mountainDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarMountain"/>
+		<h2>{{mountainName}}</h2>
+      </div>
+	</div>
+	<div class="targaryen">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.daenerysDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.daenerysDeath" type="radio" value="life">She Lives</label>
+            </div>
+  		<img v-bind:src="avatarDaenerys"/> 
+  		<h2 color=white>{{daenerysName}}</h2>
+	</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.missandeiDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.missandeiDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarMissandei"/>
+		<h2>{{missandeiName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.greywormDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.greywormDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarGreyworm"/>
+		<h2>{{greywormName}}</h2>
+	</div>
+	</div>
+	<div class="greyjoy">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.euronDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.euronDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarEuron"/> 
+  		<h2 color=white>{{euronName}}</h2>
+	</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.yaraDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.yaraDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarYara"/>
+		<h2>{{yaraName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.theonDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.theonDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarTheon"/>
+		<h2>{{theonName}}</h2>
+	</div>
+	</div>
+	<div class="tarly">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.samwellDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.samwellDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarSamwell"/> 
+  		<h2 color=white>{{samwellName}}</h2>
+	</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.gillyDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.gillyDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarGilly"/>
+		<h2>{{gillyName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.samDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.samDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarSam"/>
+		<h2>{{samName}}</h2>
+	</div>
+	</div>
+	<div class="misc">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.bericDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.bericDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarBeric"/> 
+  		<h2 color=white>{{bericName}}</h2>
+	</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.melisandreDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.melisandreDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarMelisandre"/>
+		<h2>{{melisandreName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.houndDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.houndDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarHound"/>
+		<h2>{{houndName}}</h2>
+	</div>
+	</div>
+	<div class="misc">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.varysDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.varysDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarVarys"/> 
+  		<h2 color=white>{{varysName}}</h2>
+	</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.brienneDeath" type="radio" value="death">She Dies</label>
+              <label class="radio">
+					<input v-model="form.brienneDeath" type="radio" value="life">She Lives</label>
+            </div>
+		<img v-bind:src="avatarBrienne"/>
+		<h2>{{brienneName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.podrickDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.podrickDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarPodrick"/>
+		<h2>{{podrickName}}</h2>
+	</div>
+	</div>
+	<div class="misc">
+	<div class="indiv">
+        <div class="control">
+              <label class="radio">
+					<input v-model="form.davosDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.davosDeath" type="radio" value="life">He Lives</label>
+            </div>
+  		<img v-bind:src="avatarDavos"/> 
+  		<h2 color=white>{{davosName}}</h2>
+	</div>
+	<div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.bronnDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.bronnDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarBronn"/>
+		<h2>{{bronnName}}</h2>
+	</div>
+    <div class="indiv">
+		<div>
+              <label class="radio">
+					<input v-model="form.gendryDeath" type="radio" value="death">He Dies</label>
+              <label class="radio">
+					<input v-model="form.gendryDeath" type="radio" value="life">He Lives</label>
+            </div>
+		<img v-bind:src="avatarGendry"/>
+		<h2>{{gendryName}}</h2>
+	</div>
+	</div>
+    </form>
 
-<div class="lannister">
-	<div id="app-jaime" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-cersei" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-tyrion" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-mountain" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-</div>
-
-<div class="targaryen">
-	<div id="app-daenerys" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-missandei" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-greyworm" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-jorah" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-</div>
-
-<div class="greyjoy">
-	<div id="app-euron" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-yara" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-theon" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-</div>
-
-<div class="tarly">
-	<div id="app-samwell" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-gilly" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-sam" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-</div>
-
-<div class="misc">
-	<div id="app-hound" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-beric" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-melisandre" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-</div>
-
-<div class="misc">
-	<div id="app-varys" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-brienne" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-podrick" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-</div>
-
-<div class="misc">
-	<div id="app-davos" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-bronn" style="width: 400px; height: 400px">
-		<death></death>
-		<img v-bind:src="avatar"/>
-		<h2>{{ name }}</h2>
-	</div>
-	<div id="app-gendri" style="width: 400px; height: 400px">
-  		<death></death>
-  		<img v-bind:src="avatar"/> 
-  		<h2>{{ name }}</h2>
-	</div>
 </div>
 	<div class="regform" id="register">
       <form action="" id="login">
