@@ -318,6 +318,17 @@
         
           <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
       </form>
+      <div class="responses">
+    <section class="section" id="results">
+      <div class="box">
+        <ul>
+          <li v-for="(item, k) in form">
+            <strong>{{ k }}:</strong> {{ item }}</li>
+        </ul>
+
+      </div>
+    </section>
+  </div>
       </div>
 </body>
 <script>
