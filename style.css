@@ -1,0 +1,236 @@
+.wrap {
+  width: 400px;
+  height: 400px;
+}
+
+.stark {
+  background: url(https://tom.imgix.net/stark_bg.png?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.misc {
+  background: url(https://tom.imgix.net/misc_bg.jpg?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lannister {
+  background: url(https://tom.imgix.net/lannister_bg.png?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.brotherhood {
+  background: url(https://tom.imgix.net/brotherhood_bg.png?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tarly {
+  background: url(https://tom.imgix.net/tarly_bg.png?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.greyjoy {
+  background: url(https://tom.imgix.net/greyjoy_bg.jpg?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.targaryen {
+  background: url(https://tom.imgix.net/targaryen_bg.jpg?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chooser {
+  width: 100%;
+  height: 475px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.indiv {
+  width: 325px;
+  height: 450px;
+}
+
+h2 {
+  color: white;
+}
+
+.intro h2 {
+  color: black;
+}
+
+.regform h2 {
+  color: black;
+}
+
+.die {
+	background: red;
+	color: white;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.tp {
+  color: red
+}
+/* resets */
+body { margin:0px; padding:0px; }
+
+/* main */
+header {
+    height: 500px;
+    z-index: 10;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url('https://tom.imgix.net/got_title.jpg?w=1350&h=450&fit=crop&auto=format,compress');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+header h1 {
+    background-color: rgba(18,72,120, 0.8);
+    color: #fff;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem; 
+    left: 2rem;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #292f36;
+    postion: fixed;
+    z-index: 10;
+}
+
+nav div {
+    color: white;
+    font-size: 2rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: hidden;
+}
+.visible-title {
+    visibility: visible;
+}
+
+#activityform{
+  width:70%;
+  height:300px;
+  background: #EDEDED;
+  margin: 10% auto;
+  padding: 20px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+}
+
+#register{
+  background: #FFF;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+}
+
+textarea, input{
+  resize: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+/*removed width: 100%; from textarea, input*/
+
+input[type="text"], input[type="password"], textarea{
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  outline: none;
+} 
+
+input[type="text"]:focus, input[type="text"].focus,
+input[type="password"]:focus, input[type="password"].focus,
+textarea.focus, textarea: focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type="submit"]{
+  border: none;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 11px;
+  background: #333;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+  background: #EC407A;
+  text-decoration: none;
+}
+
+select {
+    width: 100%;
+    padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background: #EEE;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
