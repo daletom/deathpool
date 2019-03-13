@@ -296,22 +296,8 @@
 		<img v-bind:src="avatarGendry"/>
 		<h2>{{gendryName}}</h2>
 	</div>
-	</div>
-    </form>
-      <div class="responses">
-    <section class="section" id="results">
-      <div class="box">
-        <ul>
-          <li v-for="(item, k) in form">
-            <strong>{{ k }}:</strong> {{ item }}</li>
-        </ul>
-      </div>
-    </section>
-  </div>
-      </div>
-      <div class="regform" id="register">
-      <form action="" id="login">
-        <h2 text-transform: uppercase; font-size: 18px; margin-bottom: 10px;>Submit Entry</h2>
+	<div>
+		<h2 text-transform: uppercase; font-size: 18px; margin-bottom: 10px;>Submit Entry</h2>
         
         <div>   <label class="labelStyle" id="logintitle1" for="loginField1"> Name:</label>
         <div>   <input id="loginInput" name="loginField1" type="text" value="" tabindex="3">
@@ -326,7 +312,20 @@
         <br />
         
           <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
-      </form>
+	</div>
+	</div>
+    </form>
+      <div class="responses">
+    <section class="section" id="results">
+      <div class="box">
+        <ul>
+          <li v-for="(item, k) in form">
+            <strong>{{ k }}:</strong> {{ item }}</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+      </div>
 </body>
 <script>
 	$(window).scroll(function(){
