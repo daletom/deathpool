@@ -30,7 +30,7 @@
 					<input v-model="form.jonDeath" type="radio" value="life">He Lives</label>
             </div>
   		<img v-bind:src="avatarJon"/> 
-  		<h2 color=white>Jon Snow</h2>
+  		<h2 color=white>{{jonName}}</h2>
 	</div>
 	<div class="indiv">
 		<div>
@@ -40,7 +40,7 @@
 					<input v-model="form.sansaDeath" type="radio" value="life">She Lives</label>
             </div>
 		<img v-bind:src="avatarSansa"/>
-		<h2>Sansa Stark</h2>
+		<h2>{{sansaName}}</h2>
 	</div>
     <div class="indiv">
 		<div>
@@ -50,7 +50,7 @@
 					<input v-model="form.aryaDeath" type="radio" value="life">She Lives</label>
             </div>
 		<img v-bind:src="avatarArya"/>
-		<h2>Arya Stark</h2>
+		<h2>{{aryaName}}</h2>
 	</div>
     <div class="indiv">
 		<div>
@@ -60,7 +60,7 @@
 					<input v-model="form.branDeath" type="radio" value="life">He Lives</label>
             </div>
 		<img v-bind:src="avatarBran"/>
-		<h2>Bran Stark</h2>
+		<h2>{{branName}}</h2>
       </div>
     </div>
       <div class="lannister">
