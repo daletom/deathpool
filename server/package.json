@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
-    "end": "./node_modules/.bin/eslint **/*.js",
-    "lint": "./node_modules/.bin/eslint ."
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "keywords": [],
   "author": "Tom Dale",
@@ -14,5 +13,8 @@
   "dependencies": {
     "eslint": "^5.15.1",
     "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "eslint-plugin-vue": "^5.2.2"
   }
 }
