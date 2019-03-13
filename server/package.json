@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
-    "end": "./node_modules/.bin/eslint **/*.js"
+    "end": "./node_modules/.bin/eslint **/*.js",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Tom Dale",
   "license": "ISC",
   "dependencies": {
     "eslint": "^5.15.1",
