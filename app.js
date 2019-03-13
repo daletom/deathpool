@@ -58,6 +58,8 @@ new Vue({
 
 
     form: {
+    	name: '',
+    	code: '',
       jonDeath: '',
       sansaDeath: '',
       aryaDeath: '',
