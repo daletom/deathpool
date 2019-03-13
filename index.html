@@ -4,6 +4,7 @@
 <link href="style.css" rel="stylesheet" />
 <script src=https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
 </head>
 <header>
     <div class="header-banner">
@@ -313,7 +314,6 @@
   </div>
   </div>
 </body>
-<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -325,6 +325,36 @@
     messagingSenderId: "803443479323"
   };
   firebase.initializeApp(config);
+</script>
+<script>
+
+export default {
+  components: {
+      name: 'AddItem'
+  },
+  firebase: {
+    items: db.ref('items')
+  },
+  data () {
+    return {
+      newItem: {
+          name: '',
+          price: ''
+      }
+    }
+  },
+  methods: {
+      addItem() {
+        this.$firebaseRefs.items.push({
+            name: this.newItem.name,
+            price: this.newItem.price
+        })
+        this.newItem.name = '';
+        this.newItem.price = '';
+        this.$router.push('/index')
+      }
+    }
+}
 </script>
 <script>
 	$(window).scroll(function(){
