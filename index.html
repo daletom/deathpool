@@ -301,17 +301,18 @@
     <h2>{{gendryName}}</h2>
   </div>
   </div>
-    </form>
       <div class="responses">
     <section class="section" id="results">
-      <div class="box">
+      <div>
         <ul>
+          <h3>Your List of Choices:</h3>
           <li v-for="(item, k) in form">
-            <strong>{{ k }}:</strong> {{ item }}</li>
+            <font color="000000">{{ k }}:</font> <font color="ff0000">{{ item }}</font></li>
         </ul>
       </div>
     </section>
   </div>
+  </form>
   </div>
 </body>
 <script>

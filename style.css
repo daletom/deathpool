@@ -64,6 +64,13 @@
   justify-content: space-around;
 }
 
+.responses {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .lannister {
   background: url(https://tom.imgix.net/lannister_bg.png?auto=format,compress&h=475&blur=15&blend=http%3A%2F%2Fassets.imgix.net%2Fblog%2Fblog-blends.pdf%3Fpage%3D1%26fm%3Dpng&bm=multiply&bh=475&bf=crop&ba=bottom,center&bc=bottom,center);
   width: 100%;
@@ -130,8 +137,8 @@ h2 {
 }
 
 .die {
-	background: red;
-	color: white;
+  background: red;
+  color: white;
 }
 
 .tp {
@@ -248,3 +255,11 @@ input[type="submit"]:hover {
   background: #EC407A;
   text-decoration: none;
 }
+
+li {
+  display: inline;
+    margin: 8px;
+  padding: 8px;
+  font-size: 28px;
+}
+

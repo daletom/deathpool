@@ -81,12 +81,12 @@ new Vue({
       samDeath: '',
       bericDeath: '',
       houndDeath: '',
-      gendryDeath: '',
       varysDeath: '',
       brienneDeath: '',
+      podrickDeath: '',
       davosDeath: '',
       bronnDeath: '',
-      podrickDeath: ''
+      gendryDeath: ''
     },
 	}
 });
