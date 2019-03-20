@@ -1,6 +1,6 @@
 .switch-field {
   display: flex;
-  margin-bottom: 36px;
+  margin: 36px;
   overflow: hidden;
 }
 
@@ -124,8 +124,9 @@
   height: 450px;
 }
 
-h2 {
+.indiv h2 {
   color: white;
+  text-align: center;
 }
 
 .intro h2 {
@@ -197,24 +198,6 @@ nav div {
 }
 .visible-title {
     visibility: visible;
-}
-
-#activityform{
-  width:70%;
-  height:300px;
-  background: #EDEDED;
-  margin: 10% auto;
-  padding: 20px;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
-}
-
-#register{
-  background: #FFF;
-  padding: 20px;
-  height: 100%;
-  width: 100%;
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
-  box-sizing: border-box;
 }
 
 textarea, input{
