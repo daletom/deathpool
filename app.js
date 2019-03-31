@@ -89,33 +89,7 @@ new Vue({
       bronnDeath: '',
       gendryDeath: ''
     },
-    methods: {
-    	post: function(){
-    		var deathpoolData = {
-    			name: app-deathpool.name,
-    			code: app-deathpool.code,
-    			jonDeath: app-deathpool.jonDeath,
-    			sansaDeath: app-deathpool.sansaDeath,
-    			aryaDeath: app-deathpool.aryaDeath,
-    			branDeath: app-deathpool.branDeath,
-    			jaimeDeath: app-deathpool.jaimeDeath, 
-    			cerseiDeath: app-deathpool.cerseiDeath,
-    			tyrionDeath: app-deathpool.tyrionDeath
-    		};
-    		Sheetsu.write("https://sheetsu.com/a/t/42edd873d526", deathpoolData, {}).then(function (data) {
-    			console.log(data);
-    			app-deathpool.deathpool.push = data;
-    			app-deathpool.jonDeath = "";
-    			app-deathpool.sansaDeath = "";
-    			app-deathpool.aryaDeath = "";
-    			app-deathpool.branDeath = "";
-    			app-deathpool.jaimeDeath = "";
-    			app-deathpool.cerseiDeath = "";
-    			app-deathpool.tyrionDeath = "";
-    			alert("Thank you for submitting your details.")
-    		});
-    	}
-    }
+    
 
     
 
