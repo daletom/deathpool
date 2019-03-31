@@ -104,6 +104,7 @@ new Vue({
     		};
     		Sheetsu.write("https://sheetsu.com/a/t/42edd873d526", deathpoolData, {}).then(function (data) {
     			console.log(data);
+    			app-deathpool.deathpool.push = data;
     			app-deathpool.jonDeath = "";
     			app-deathpool.sansaDeath = "";
     			app-deathpool.aryaDeath = "";
