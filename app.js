@@ -90,7 +90,7 @@ new Vue({
     },
 
 
-    }
+    };
 
     methods: {
     	post: function(){
