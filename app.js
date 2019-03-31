@@ -88,5 +88,14 @@ new Vue({
       bronnDeath: '',
       gendryDeath: ''
     },
+    methods: {
+    	post: function(){
+
+    		this.$http.post('https://vuedeathpool.firebaseio.com/posts.json', this.form).then(function(data){
+    			console.log(data);
+    			this.submitted = true;
+    		})
+    	}
+    }
 	}
 });
