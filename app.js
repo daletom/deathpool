@@ -112,7 +112,7 @@ new Vue({
     			app-deathpool.tyrionDeath = "";
     			alert("Thank you for submitting your details.")
     		};
-    	}
+    	},
 
     	}
 })
