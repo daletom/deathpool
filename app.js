@@ -101,7 +101,27 @@ methods: {
     			branDeath: app-deathpool.branDeath,
     			jaimeDeath: app-deathpool.jaimeDeath, 
     			cerseiDeath: app-deathpool.cerseiDeath,
-    			tyrionDeath: app-deathpool.tyrionDeath
+    			tyrionDeath: app-deathpool.tyrionDeath,
+    			mountainDeath: app-deathpool.mountainDeath,
+    			daenerysDeath: app-deathpool.daenerysDeath,
+    			missandeiDeath: app-deathpool.missandeiDeath,
+    			greywormDeath: app-deathpool.greywormDeath,
+    			euronDeath: app-deathpool.euronDeath,
+    			yaraDeath: app-deathpool.yaraDeath,
+    			theonDeath: app-deathpool.theonDeath,
+    			jorahDeath: app-deathpool.jorahDeath,
+    			melisandreDeath: app-deathpool.melisandreDeath,
+    			samwellDeath: app-deathpool.samwellDeath,
+    			gillyDeath: app-deathpool.gillyDeath,
+    			samDeath: app-deathpool.samDeath,
+    			bericDeath: app-deathpool.bericDeath,
+    			houndDeath: app-deathpool.houndDeath,
+    			varysDeath: app-deathpool.varysDeath,
+    			brienneDeath: app-deathpool.brienneDeath,
+    			podrickDeath: app-deathpool.podrickDeath,
+    			davosDeath: app-deathpool.davosDeath,
+    			bronnDeath: app-deathpool.bronnDeath,
+    			gendryDeath: app-deathpool.gendryDeath
     		};
     		Sheetsu.write("https://sheetsu.com/a/t/42edd873d526", deathpoolData, {}).then(function (data) {
     			console.log(data);
@@ -113,6 +133,26 @@ methods: {
     			app-deathpool.jaimeDeath = "";
     			app-deathpool.cerseiDeath = "";
     			app-deathpool.tyrionDeath = "";
+    			app-deathpool.mountainDeath = "";
+    			app-deathpool.daenerysDeath = "";
+    			app-deathpool.missandeiDeath = "";
+    			app-deathpool.greywormDeath = "";
+    			app-deathpool.euronDeath = "";
+    			app-deathpool.yaraDeath = "";
+    			app-deathpool.theonDeath = "";
+    			app-deathpool.jorahDeath = "";
+    			app-deathpool.melisandreDeath = "";
+    			app-deathpool.samwellDeath = "";
+    			app-deathpool.gillyDeath = "";
+    			app-deathpool.samDeath = "";
+    			app-deathpool.bericDeath = "";
+    			app-deathpool.houndDeath = "";
+    			app-deathpool.varysDeath = "";
+    			app-deathpool.brienneDeath = "";
+    			app-deathpool.podrickDeath = "";
+    			app-deathpool.davosDeath = "";
+    			app-deathpool.bronnDeath = "";
+    			app-deathpool.gendryDeath = "";
     			alert("Thank you for submitting your details.")
     		});
     	}
