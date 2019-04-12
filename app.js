@@ -87,9 +87,9 @@ new Vue({
 	      bronnDeath: '',
 	      gendryDeath: ''
 		},
-},
+	},
 
-methods: {
+	methods: {
     	post: function(){
     		var deathpoolData = {
     			name: this.form.name,
