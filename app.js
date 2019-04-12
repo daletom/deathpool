@@ -56,7 +56,6 @@ new Vue({
 		avatarBronn: 'https://tom.imgix.net/bronn.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
 		podrickName: 'Podrick Payne',
 		avatarPodrick: 'https://tom.imgix.net/podrickpayne.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
-}
 },
 
 
@@ -91,6 +90,7 @@ new Vue({
       bronnDeath: '',
       gendryDeath: ''
 },
+}
 
 methods: {
     	post: function(){
