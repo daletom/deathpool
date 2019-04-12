@@ -87,8 +87,8 @@ new Vue({
       davosDeath: '',
       bronnDeath: '',
       gendryDeath: ''
-    },
-}
+    }
+},
 
 methods: {
     	post: function(){
