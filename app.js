@@ -1,6 +1,7 @@
 new Vue({
 	el: '#app_deathpool',
-	data: {
+	data: function () {
+		return {
 		jonName: 'Jon Snow', 
 		avatarJon: 'https://tom.imgix.net/jonsnow.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', 
 		sansaName: 'Sansa Stark', 
@@ -54,7 +55,8 @@ new Vue({
 		bronnName: 'Bronn',
 		avatarBronn: 'https://tom.imgix.net/bronn.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
 		podrickName: 'Podrick Payne',
-		avatarPodrick: 'https://tom.imgix.net/podrickpayne.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+		avatarPodrick: 'https://tom.imgix.net/podrickpayne.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse'
+},
 
 
     form: {
