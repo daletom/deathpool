@@ -123,8 +123,9 @@ methods: {
     			bronnDeath: app-deathpool.bronnDeath,
     			gendryDeath: app-deathpool.gendryDeath
     		};
-    		Sheetsu.write("https://sheetsu.com/a/t/42edd873d526", deathpoolData, {}).then(function (data) {
+    		Sheetsu.write("https://sheetsu.com/apis/v1.0su/42edd873d526", deathpoolData, {}).then(function (data) {
     			console.log(data);
+    			app-deathpool.deathpool.push = data;
     			app-deathpool.jonDeath = "";
     			app-deathpool.sansaDeath = "";
     			app-deathpool.aryaDeath = "";
