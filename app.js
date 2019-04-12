@@ -1,5 +1,5 @@
 new Vue({
-	el: '#app-deathpool',
+	el: '#app_deathpool',
 	data: {
 		jonName: 'Jon Snow', 
 		avatarJon: 'https://tom.imgix.net/jonsnow.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse', 
@@ -93,66 +93,66 @@ new Vue({
 methods: {
     	post: function(){
     		var deathpoolData = {
-    			name: app-deathpool.name,
-    			code: app-deathpool.code,
-    			jonDeath: app-deathpool.jonDeath,
-    			sansaDeath: app-deathpool.sansaDeath,
-    			aryaDeath: app-deathpool.aryaDeath,
-    			branDeath: app-deathpool.branDeath,
-    			jaimeDeath: app-deathpool.jaimeDeath, 
-    			cerseiDeath: app-deathpool.cerseiDeath,
-    			tyrionDeath: app-deathpool.tyrionDeath,
-    			mountainDeath: app-deathpool.mountainDeath,
-    			daenerysDeath: app-deathpool.daenerysDeath,
-    			missandeiDeath: app-deathpool.missandeiDeath,
-    			greywormDeath: app-deathpool.greywormDeath,
-    			euronDeath: app-deathpool.euronDeath,
-    			yaraDeath: app-deathpool.yaraDeath,
-    			theonDeath: app-deathpool.theonDeath,
-    			jorahDeath: app-deathpool.jorahDeath,
-    			melisandreDeath: app-deathpool.melisandreDeath,
-    			samwellDeath: app-deathpool.samwellDeath,
-    			gillyDeath: app-deathpool.gillyDeath,
-    			samDeath: app-deathpool.samDeath,
-    			bericDeath: app-deathpool.bericDeath,
-    			houndDeath: app-deathpool.houndDeath,
-    			varysDeath: app-deathpool.varysDeath,
-    			brienneDeath: app-deathpool.brienneDeath,
-    			podrickDeath: app-deathpool.podrickDeath,
-    			davosDeath: app-deathpool.davosDeath,
-    			bronnDeath: app-deathpool.bronnDeath,
-    			gendryDeath: app-deathpool.gendryDeath
+    			name: app_deathpool.name,
+    			code: app_deathpool.code,
+    			jonDeath: app_deathpool.jonDeath,
+    			sansaDeath: app_deathpool.sansaDeath,
+    			aryaDeath: app_deathpool.aryaDeath,
+    			branDeath: app_deathpool.branDeath,
+    			jaimeDeath: app_deathpool.jaimeDeath, 
+    			cerseiDeath: app_deathpool.cerseiDeath,
+    			tyrionDeath: app_deathpool.tyrionDeath,
+    			mountainDeath: app_deathpool.mountainDeath,
+    			daenerysDeath: app_deathpool.daenerysDeath,
+    			missandeiDeath: app_deathpool.missandeiDeath,
+    			greywormDeath: app_deathpool.greywormDeath,
+    			euronDeath: app_deathpool.euronDeath,
+    			yaraDeath: app_deathpool.yaraDeath,
+    			theonDeath: app_deathpool.theonDeath,
+    			jorahDeath: app_deathpool.jorahDeath,
+    			melisandreDeath: app_deathpool.melisandreDeath,
+    			samwellDeath: app_deathpool.samwellDeath,
+    			gillyDeath: app_deathpool.gillyDeath,
+    			samDeath: app_deathpool.samDeath,
+    			bericDeath: app_deathpool.bericDeath,
+    			houndDeath: app_deathpool.houndDeath,
+    			varysDeath: app_deathpool.varysDeath,
+    			brienneDeath: app_deathpool.brienneDeath,
+    			podrickDeath: app_deathpool.podrickDeath,
+    			davosDeath: app_deathpool.davosDeath,
+    			bronnDeath: app_deathpool.bronnDeath,
+    			gendryDeath: app_deathpool.gendryDeath
     		};
     		Sheetsu.write("https://sheetsu.com/apis/v1.0su/42edd873d526", deathpoolData, {}).then(function (data) {
     			console.log(data);
-    			app-deathpool.deathpool.push = data;
-    			app-deathpool.jonDeath = "";
-    			app-deathpool.sansaDeath = "";
-    			app-deathpool.aryaDeath = "";
-    			app-deathpool.branDeath = "";
-    			app-deathpool.jaimeDeath = "";
-    			app-deathpool.cerseiDeath = "";
-    			app-deathpool.tyrionDeath = "";
-    			app-deathpool.mountainDeath = "";
-    			app-deathpool.daenerysDeath = "";
-    			app-deathpool.missandeiDeath = "";
-    			app-deathpool.greywormDeath = "";
-    			app-deathpool.euronDeath = "";
-    			app-deathpool.yaraDeath = "";
-    			app-deathpool.theonDeath = "";
-    			app-deathpool.jorahDeath = "";
-    			app-deathpool.melisandreDeath = "";
-    			app-deathpool.samwellDeath = "";
-    			app-deathpool.gillyDeath = "";
-    			app-deathpool.samDeath = "";
-    			app-deathpool.bericDeath = "";
-    			app-deathpool.houndDeath = "";
-    			app-deathpool.varysDeath = "";
-    			app-deathpool.brienneDeath = "";
-    			app-deathpool.podrickDeath = "";
-    			app-deathpool.davosDeath = "";
-    			app-deathpool.bronnDeath = "";
-    			app-deathpool.gendryDeath = "";
+    			app_deathpool.deathpool.push = data;
+    			app_deathpool.jonDeath = "";
+    			app_deathpool.sansaDeath = "";
+    			app_deathpool.aryaDeath = "";
+    			app_deathpool.branDeath = "";
+    			app_deathpool.jaimeDeath = "";
+    			app_deathpool.cerseiDeath = "";
+    			app_deathpool.tyrionDeath = "";
+    			app_deathpool.mountainDeath = "";
+    			app_deathpool.daenerysDeath = "";
+    			app_deathpool.missandeiDeath = "";
+    			app_deathpool.greywormDeath = "";
+    			app_deathpool.euronDeath = "";
+    			app_deathpool.yaraDeath = "";
+    			app_deathpool.theonDeath = "";
+    			app_deathpool.jorahDeath = "";
+    			app_deathpool.melisandreDeath = "";
+    			app_deathpool.samwellDeath = "";
+    			app_deathpool.gillyDeath = "";
+    			app_deathpool.samDeath = "";
+    			app_deathpool.bericDeath = "";
+    			app_deathpool.houndDeath = "";
+    			app_deathpool.varysDeath = "";
+    			app_deathpool.brienneDeath = "";
+    			app_deathpool.podrickDeath = "";
+    			app_deathpool.davosDeath = "";
+    			app_deathpool.bronnDeath = "";
+    			app_deathpool.gendryDeath = "";
     			alert("Thank you for submitting your details.")
     		});
     	}
