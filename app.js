@@ -97,7 +97,7 @@ new Vue({
         this.form,
         {}
       ).then((data) => {
-        alert("Thank you for submitting your details.")
+        alert("{{ name }}, Thank you for submitting your choices.  Your entries have been recorded.")
       });
     }
   }
