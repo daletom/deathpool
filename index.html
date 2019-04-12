@@ -21,10 +21,10 @@
 <h2>Rules: You need to pick ...[more to come..]</h2>
   </div>
 <div id="app-deathpool">
-  <form class="chooser">
+  <form v-on:submit.prevent="post" class="chooser">
     <input v-model="form.name" placeholder="Enter Your Name"></input>
   <input v-model="form.code" placeholder="Enter Deathpool Code"></input>
-  <input v-on:click.prevent="post" id="registerForm" name="registerForm" type="submit" value="Submit Entry">
+  <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
     <div class="stark">
   <div class="indiv">
         <div class="switch-field">
