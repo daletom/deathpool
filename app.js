@@ -122,38 +122,9 @@ new Vue({
     			bronnDeath: this.form.bronnDeath,
     			gendryDeath: this.form.gendryDeath
     		};
-    		Sheetsu.write("https://sheetsu.com/apis/v1.0su/42edd873d526", deathpoolData, {}).then(function (data) {
-    			console.log(data);
-    			app_deathpool.deathpool.push = data;
-    			app_deathpool.jonDeath = "";
-    			app_deathpool.sansaDeath = "";
-    			app_deathpool.aryaDeath = "";
-    			app_deathpool.branDeath = "";
-    			app_deathpool.jaimeDeath = "";
-    			app_deathpool.cerseiDeath = "";
-    			app_deathpool.tyrionDeath = "";
-    			app_deathpool.mountainDeath = "";
-    			app_deathpool.daenerysDeath = "";
-    			app_deathpool.missandeiDeath = "";
-    			app_deathpool.greywormDeath = "";
-    			app_deathpool.euronDeath = "";
-    			app_deathpool.yaraDeath = "";
-    			app_deathpool.theonDeath = "";
-    			app_deathpool.jorahDeath = "";
-    			app_deathpool.melisandreDeath = "";
-    			app_deathpool.samwellDeath = "";
-    			app_deathpool.gillyDeath = "";
-    			app_deathpool.samDeath = "";
-    			app_deathpool.bericDeath = "";
-    			app_deathpool.houndDeath = "";
-    			app_deathpool.varysDeath = "";
-    			app_deathpool.brienneDeath = "";
-    			app_deathpool.podrickDeath = "";
-    			app_deathpool.davosDeath = "";
-    			app_deathpool.bronnDeath = "";
-    			app_deathpool.gendryDeath = "";
+    		Sheetsu.write("https://sheetsu.com/apis/v1.0su/42edd873d526", deathpoolData, {}).then((data) => {''}
     			alert("Thank you for submitting your details.")
-    		});
+    		);
     	}
     }
 
