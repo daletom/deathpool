@@ -73,7 +73,7 @@
           <input v-model="form.jaimeDeath" type="radio" name="jaimelifeswitch" value="life" id="jaimebutton1" checked />
               <label for="jaimebutton1">He Lives</label>
           <input v-model="form.jaimeDeath" type="radio" name="jaimedeathswitch" value="death" id="jaimebutton2" />
-          <label for="jaimebutton2">He Lives</label>
+          <label for="jaimebutton2">He Dies</label>
             </div>
       <img v-bind:src="avatarJaime"/> 
       <h2 color=white>{{jaimeName}}</h2>
@@ -81,29 +81,29 @@
   <div class="indiv">
     <div class="switch-field">
           <input v-model="form.cerseiDeath" type="radio" name="cerseilifeswitch" value="life" id="cerseibutton1" checked />
-              <label for="cerseibutton1">He Lives</label>
+              <label for="cerseibutton1">She Lives</label>
           <input v-model="form.cerseiDeath" type="radio" name="cerseideathswitch" value="death" id="cerseibutton2" />
-          <label for="cerseibutton2">He Lives</label>
+          <label for="cerseibutton2">She Dies</label>
             </div>
     <img v-bind:src="avatarCersei"/>
     <h2>{{cerseiName}}</h2>
   </div>
     <div class="indiv">
     <div class="switch-field">
-          <input v-model="form.tyrionDeath" type="radio" name="tyrionlifeswitch" value="life" id="tyrionbutton1" checked />
-              <label for="tyrionbutton1">He Lives</label>
-          <input v-model="form.tyrionDeath" type="radio" name="tyriondeathswitch" value="death" id="tyrionbutton2" />
-          <label for="tyrionbutton2">He Lives</label>
+          <input v-model="form.qyburnDeath" type="radio" name="qyburnlifeswitch" value="life" id="qyburnbutton1" checked />
+              <label for="qyburnbutton1">He Lives</label>
+          <input v-model="form.qyburnDeath" type="radio" name="qyburndeathswitch" value="death" id="qyburnbutton2" />
+          <label for="qyburnbutton2">He Dies</label>
             </div>
-    <img v-bind:src="avatarTyrion"/>
-    <h2>{{tyrionName}}</h2>
+    <img v-bind:src="avatarQyburn"/>
+    <h2>{{qyburnName}}</h2>
   </div>
     <div class="indiv">
     <div class="switch-field">
           <input v-model="form.mountainDeath" type="radio" name="mountainlifeswitch" value="life" id="mountainbutton1" checked />
               <label for="mountainbutton1">He Lives</label>
           <input v-model="form.mountainDeath" type="radio" name="mountaindeathswitch" value="death" id="mountainbutton2" />
-          <label for="mountainbutton2">He Lives</label>
+          <label for="mountainbutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarMountain"/>
     <h2>{{mountainName}}</h2>
@@ -113,9 +113,9 @@
   <div class="indiv">
         <div class="switch-field">
           <input v-model="form.daenerysDeath" type="radio" name="daeneryslifeswitch" value="life" id="daenerysbutton1" checked />
-              <label for="daenerysbutton1">He Lives</label>
+              <label for="daenerysbutton1">She Lives</label>
           <input v-model="form.daenerysDeath" type="radio" name="daenerysdeathswitch" value="death" id="daenerysbutton2" />
-          <label for="daenerysbutton2">He Lives</label>
+          <label for="daenerysbutton2">She Dies</label>
             </div>
       <img v-bind:src="avatarDaenerys"/> 
       <h2 color=white>{{daenerysName}}</h2>
@@ -123,9 +123,9 @@
   <div class="indiv">
     <div class="switch-field">
           <input v-model="form.missandeiDeath" type="radio" name="missandeilifeswitch" value="life" id="missandeibutton1" checked />
-              <label for="missandeibutton1">He Lives</label>
+              <label for="missandeibutton1">She Lives</label>
           <input v-model="form.missandeiDeath" type="radio" name="missandeideathswitch" value="death" id="missandeibutton2" />
-          <label for="missandeibutton2">He Lives</label>
+          <label for="missandeibutton2">She Dies</label>
             </div>
     <img v-bind:src="avatarMissandei"/>
     <h2>{{missandeiName}}</h2>
@@ -135,10 +135,20 @@
           <input v-model="form.greywormDeath" type="radio" name="greywormlifeswitch" value="life" id="greywormbutton1" checked />
               <label for="greywormbutton1">He Lives</label>
           <input v-model="form.greywormDeath" type="radio" name="greywormdeathswitch" value="death" id="greywormbutton2" />
-          <label for="greywormbutton2">He Lives</label>
+          <label for="greywormbutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarGreyworm"/>
     <h2>{{greywormName}}</h2>
+  </div>
+  <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.tyrionDeath" type="radio" name="tyrionlifeswitch" value="life" id="tyrionbutton1" checked />
+              <label for="tyrionbutton1">He Lives</label>
+          <input v-model="form.tyrionDeath" type="radio" name="tyriondeathswitch" value="death" id="tyrionbutton2" />
+          <label for="tyrionbutton2">He Dies</label>
+            </div>
+    <img v-bind:src="avatarTyrion"/>
+    <h2>{{tyrionName}}</h2>
   </div>
   </div>
   <div class="greyjoy">
@@ -147,7 +157,7 @@
           <input v-model="form.euronDeath" type="radio" name="euronlifeswitch" value="life" id="euronbutton1" checked />
               <label for="euronbutton1">He Lives</label>
           <input v-model="form.euronDeath" type="radio" name="eurondeathswitch" value="death" id="euronbutton2" />
-          <label for="euronbutton2">He Lives</label>
+          <label for="euronbutton2">He Dies</label>
             </div>
       <img v-bind:src="avatarEuron"/> 
       <h2 color=white>{{euronName}}</h2>
@@ -155,9 +165,9 @@
   <div class="indiv">
     <div class="switch-field">
           <input v-model="form.yaraDeath" type="radio" name="yaralifeswitch" value="life" id="yarabutton1" checked />
-              <label for="yarabutton1">He Lives</label>
+              <label for="yarabutton1">She Lives</label>
           <input v-model="form.yaraDeath" type="radio" name="yaradeathswitch" value="death" id="yarabutton2" />
-          <label for="yarabutton2">He Lives</label>
+          <label for="yarabutton2">She Dies</label>
             </div>
     <img v-bind:src="avatarYara"/>
     <h2>{{yaraName}}</h2>
@@ -167,7 +177,7 @@
           <input v-model="form.theonDeath" type="radio" name="theonlifeswitch" value="life" id="theonbutton1" checked />
               <label for="theonbutton1">He Lives</label>
           <input v-model="form.theonDeath" type="radio" name="theondeathswitch" value="death" id="theonbutton2" />
-          <label for="theonbutton2">He Lives</label>
+          <label for="theonbutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarTheon"/>
     <h2>{{theonName}}</h2>
@@ -179,7 +189,7 @@
           <input v-model="form.samwellDeath" type="radio" name="samwelllifeswitch" value="life" id="samwellbutton1" checked />
               <label for="samwellbutton1">He Lives</label>
           <input v-model="form.samwellDeath" type="radio" name="samwelldeathswitch" value="death" id="samwellbutton2" />
-          <label for="samwellbutton2">He Lives</label>
+          <label for="samwellbutton2">He Dies</label>
             </div>
       <img v-bind:src="avatarSamwell"/> 
       <h2 color=white>{{samwellName}}</h2>
@@ -187,9 +197,9 @@
   <div class="indiv">
     <div class="switch-field">
           <input v-model="form.gillyDeath" type="radio" name="gillylifeswitch" value="life" id="gillybutton1" checked />
-              <label for="gillybutton1">He Lives</label>
+              <label for="gillybutton1">She Lives</label>
           <input v-model="form.gillyDeath" type="radio" name="gillydeathswitch" value="death" id="gillybutton2" />
-          <label for="gillybutton2">He Lives</label>
+          <label for="gillybutton2">She Dies</label>
             </div>
     <img v-bind:src="avatarGilly"/>
     <h2>{{gillyName}}</h2>
@@ -199,7 +209,7 @@
           <input v-model="form.samDeath" type="radio" name="samlifeswitch" value="life" id="sambutton1" checked />
               <label for="sambutton1">He Lives</label>
           <input v-model="form.samDeath" type="radio" name="samdeathswitch" value="death" id="sambutton2" />
-          <label for="sambutton2">He Lives</label>
+          <label for="sambutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarSam"/>
     <h2>{{samName}}</h2>
@@ -211,7 +221,7 @@
           <input v-model="form.bericDeath" type="radio" name="bericlifeswitch" value="life" id="bericbutton1" checked />
               <label for="bericbutton1">He Lives</label>
           <input v-model="form.bericDeath" type="radio" name="bericdeathswitch" value="death" id="bericbutton2" />
-          <label for="bericbutton2">He Lives</label>
+          <label for="bericbutton2">He Dies</label>
             </div>
       <img v-bind:src="avatarBeric"/> 
       <h2 color=white>{{bericName}}</h2>
@@ -219,9 +229,9 @@
   <div class="indiv">
     <div class="switch-field">
           <input v-model="form.melisandreDeath" type="radio" name="melisandrelifeswitch" value="life" id="melisandrebutton1" checked />
-              <label for="melisandrebutton1">He Lives</label>
+              <label for="melisandrebutton1">She Lives</label>
           <input v-model="form.melisandreDeath" type="radio" name="melisandredeathswitch" value="death" id="melisandrebutton2" />
-          <label for="melisandrebutton2">He Lives</label>
+          <label for="melisandrebutton2">She Dies</label>
             </div>
     <img v-bind:src="avatarMelisandre"/>
     <h2>{{melisandreName}}</h2>
@@ -231,7 +241,7 @@
           <input v-model="form.houndDeath" type="radio" name="houndlifeswitch" value="life" id="houndbutton1" checked />
               <label for="houndbutton1">He Lives</label>
           <input v-model="form.houndDeath" type="radio" name="hounddeathswitch" value="death" id="houndbutton2" />
-          <label for="houndbutton2">He Lives</label>
+          <label for="houndbutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarHound"/>
     <h2>{{houndName}}</h2>
@@ -243,7 +253,7 @@
           <input v-model="form.varysDeath" type="radio" name="varyslifeswitch" value="life" id="varysbutton1" checked />
               <label for="varysbutton1">He Lives</label>
           <input v-model="form.varysDeath" type="radio" name="varysdeathswitch" value="death" id="varysbutton2" />
-          <label for="varysbutton2">He Lives</label>
+          <label for="varysbutton2">He Dies</label>
             </div>
       <img v-bind:src="avatarVarys"/> 
       <h2 color=white>{{varysName}}</h2>
@@ -251,9 +261,9 @@
   <div class="indiv">
     <div class="switch-field">
           <input v-model="form.brienneDeath" type="radio" name="briennelifeswitch" value="life" id="briennebutton1" checked />
-              <label for="briennebutton1">He Lives</label>
+              <label for="briennebutton1">She Lives</label>
           <input v-model="form.brienneDeath" type="radio" name="briennedeathswitch" value="death" id="briennebutton2" />
-          <label for="briennebutton2">He Lives</label>
+          <label for="briennebutton2">She Dies</label>
             </div>
     <img v-bind:src="avatarBrienne"/>
     <h2>{{brienneName}}</h2>
@@ -263,10 +273,20 @@
           <input v-model="form.podrickDeath" type="radio" name="podricklifeswitch" value="life" id="podrickbutton1" checked />
               <label for="podrickbutton1">He Lives</label>
           <input v-model="form.podrickDeath" type="radio" name="podrickdeathswitch" value="death" id="podrickbutton2" />
-          <label for="podrickbutton2">He Lives</label>
+          <label for="podrickbutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarPodrick"/>
     <h2>{{podrickName}}</h2>
+  </div>
+  <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.tormundDeath" type="radio" name="tormundlifeswitch" value="life" id="tormundbutton1" checked />
+              <label for="tormundbutton1">He Lives</label>
+          <input v-model="form.tormundDeath" type="radio" name="tormunddeathswitch" value="death" id="tormundbutton2" />
+          <label for="tormundbutton2">He Dies</label>
+            </div>
+    <img v-bind:src="avatarTormund"/>
+    <h2>{{tormundName}}</h2>
   </div>
   </div>
   <div class="misc">
@@ -275,7 +295,7 @@
           <input v-model="form.davosDeath" type="radio" name="davoslifeswitch" value="life" id="davosbutton1" checked />
               <label for="davosbutton1">He Lives</label>
           <input v-model="form.davosDeath" type="radio" name="davosdeathswitch" value="death" id="davosbutton2" />
-          <label for="davosbutton2">He Lives</label>
+          <label for="davosbutton2">He Dies</label>
             </div>
       <img v-bind:src="avatarDavos"/> 
       <h2 color=white>{{davosName}}</h2>
@@ -285,7 +305,7 @@
           <input v-model="form.bronnDeath" type="radio" name="bronnlifeswitch" value="life" id="bronnbutton1" checked />
               <label for="bronnbutton1">He Lives</label>
           <input v-model="form.bronnDeath" type="radio" name="bronndeathswitch" value="death" id="bronnbutton2" />
-          <label for="bronnbutton2">He Lives</label>
+          <label for="bronnbutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarBronn"/>
     <h2>{{bronnName}}</h2>
@@ -295,22 +315,63 @@
           <input v-model="form.gendryDeath" type="radio" name="gendrylifeswitch" value="life" id="gendrybutton1" checked />
               <label for="gendrybutton1">He Lives</label>
           <input v-model="form.gendryDeath" type="radio" name="gendrydeathswitch" value="death" id="gendrybutton2" />
-          <label for="gendrybutton2">He Lives</label>
+          <label for="gendrybutton2">He Dies</label>
             </div>
     <img v-bind:src="avatarGendry"/>
     <h2>{{gendryName}}</h2>
   </div>
+  <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.meeraDeath" type="radio" name="meeralifeswitch" value="life" id="meerabutton1" checked />
+              <label for="meerabutton1">She Lives</label>
+          <input v-model="form.meeraDeath" type="radio" name="meeradeathswitch" value="death" id="meerabutton2" />
+          <label for="meerabutton2">She Dies</label>
+            </div>
+    <img v-bind:src="avatarMeera"/>
+    <h2>{{meeraName}}</h2>
   </div>
-      <div class="responses">
-    <section class="section" id="results">
-      <div>
-        <ul>
-          <h3>Your List of Choices:</h3>
-          <li v-for="(item, k) in form">
-            <font color="000000">{{ k }}:</font> <font color="ff0000">{{ item }}</font></li>
-        </ul>
-      </div>
-    </section>
+  </div>
+  <div class="misc">
+  <div class="indiv">
+        <div class="switch-field">
+          <input v-model="form.nightkingDeath" type="radio" name="nightkinglifeswitch" value="life" id="nightkingbutton1" checked />
+              <label for="nightkingbutton1">He Lives</label>
+          <input v-model="form.nightkingDeath" type="radio" name="nightkingdeathswitch" value="death" id="nightkingbutton2" />
+          <label for="nightkingbutton2">He Dies</label>
+            </div>
+      <img v-bind:src="avatarNightking"/> 
+      <h2 color=white>{{nightkingName}}</h2>
+  </div>
+  <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.viserionDeath" type="radio" name="viserionlifeswitch" value="life" id="viserionbutton1" checked />
+              <label for="viserionbutton1">It Lives</label>
+          <input v-model="form.viserionDeath" type="radio" name="viseriondeathswitch" value="death" id="viserionbutton2" />
+          <label for="viserionbutton2">It Dies</label>
+            </div>
+    <img v-bind:src="avatarViserion"/>
+    <h2>{{viserionName}}</h2>
+  </div>
+    <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.drogonDeath" type="radio" name="drogonlifeswitch" value="life" id="drogonbutton1" checked />
+              <label for="drogonbutton1">It Lives</label>
+          <input v-model="form.drogonDeath" type="radio" name="drogondeathswitch" value="death" id="drogonbutton2" />
+          <label for="drogonbutton2">It Dies</label>
+            </div>
+    <img v-bind:src="avatarDrogon"/>
+    <h2>{{drogonName}}</h2>
+  </div>
+  <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.rhaegalDeath" type="radio" name="rhaegallifeswitch" value="life" id="rhaegalbutton1" checked />
+              <label for="rhaegalbutton1">It Lives</label>
+          <input v-model="form.rhaegalDeath" type="radio" name="rhaegaldeathswitch" value="death" id="rhaegalbutton2" />
+          <label for="rhaegalbutton2">It Dies</label>
+            </div>
+    <img v-bind:src="avatarRhaegal"/>
+    <h2>{{rhaegalName}}</h2>
+  </div>
   </div>
   </form>
   </div>

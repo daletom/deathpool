@@ -56,6 +56,20 @@ new Vue({
       avatarBronn: 'https://tom.imgix.net/bronn.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       podrickName: 'Podrick Payne',
       avatarPodrick: 'https://tom.imgix.net/podrickpayne.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      qyburnName: 'Qyburn',
+      avatarQyburn: 'https://tom.imgix.net/qyburn.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      tormandName: 'Tormand Giantsbane',
+      avatarTormand: 'https://tom.imgix.net/tormandgiantsbane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      meeraName: 'Meera Reed',
+      avatarMeera: 'https://tom.imgix.net/meerareed.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      nightkingName: 'The Night King',
+      avatarNightking: 'https://tom.imgix.net/nightking.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      drogonName: 'Drogon',
+      avatarDrogon: 'https://tom.imgix.net/drogon.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      rhaegalName: 'Rhaegal',
+      avatarRhaegal: 'https://tom.imgix.net/rhaegal.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      viserionName: 'Viserion',
+      avatarViserion: 'https://tom.imgix.net/viserion.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       form: {
         name: '',
         code: '',
@@ -85,7 +99,14 @@ new Vue({
         podrickDeath: '',
         davosDeath: '',
         bronnDeath: '',
-        gendryDeath: ''
+        gendryDeath: '',
+        qyburnDeath: '',
+        tormandDeath: '',
+        meeraDeath: '',
+        nightkingDeath: '',
+        drogonDeath: '',
+        rhaegalDeath: '',
+        viserionDeath: ''
       }
     }
   },
