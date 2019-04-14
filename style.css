@@ -256,5 +256,12 @@ li {
 textarea, input {
   width: 300;
   height: 50;
+  font-size: inherit;
+}
+
+select {
+  width: 300;
+  height: 50;
+  font-size: inherit;
 }
 

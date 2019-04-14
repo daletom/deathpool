@@ -381,8 +381,10 @@
   </div>
 </div>
   <div class="bonus">
-    <input v-model="form.name" placeholder="Enter Your Name" width="200"></input>
-  <input v-model="form.email" placeholder="Enter Your Email" width="200"></input>
+    <div>
+    <input v-model="form.name" placeholder="Enter Your Name"></input>
+    <input v-model="form.email" placeholder="Enter Your Email"></input>
+    </div>
   <select v-model="form.firstDeath" width="200"> 
     <option disabled value="">Who will die first?</option>
     <option>Jon Snow</option>
