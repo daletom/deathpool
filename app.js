@@ -59,7 +59,7 @@ new Vue({
       qyburnName: 'Qyburn',
       avatarQyburn: 'https://tom.imgix.net/qyburn.png?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       tormandName: 'Tormand Giantsbane',
-      avatarTormand: 'https://tom.imgix.net/tormandgiantsbane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      avatarTormund: 'https://tom.imgix.net/tormundgiantsbane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       meeraName: 'Meera Reed',
       avatarMeera: 'https://tom.imgix.net/meerareed.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       nightkingName: 'The Night King',
