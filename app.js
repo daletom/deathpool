@@ -106,7 +106,9 @@ new Vue({
         nightkingDeath: '',
         drogonDeath: '',
         rhaegalDeath: '',
-        viserionDeath: ''
+        viserionDeath: '',
+        firstDeath: '',
+        lastDeath: ''
       }
     }
   },
