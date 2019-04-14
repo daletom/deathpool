@@ -65,7 +65,7 @@ new Vue({
       nightkingName: 'The Night King',
       avatarNightking: 'https://tom.imgix.net/nightking.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       drogonName: 'Drogon',
-      avatarDrogon: 'https://tom.imgix.net/drogon.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      avatarDrogon: 'https://tom.imgix.net/drogon.jpg?w=300&h=300&fit=crop&crop=entropy&auto=format,compress&mask=ellipse',
       rhaegalName: 'Rhaegal',
       avatarRhaegal: 'https://tom.imgix.net/rhaegal.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       viserionName: 'Viserion',
