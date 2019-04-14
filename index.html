@@ -373,7 +373,44 @@
   <div class="bonus">
     <input v-model="form.name" placeholder="Enter Your Name"></input>
   <input v-model="form.email" placeholder="Enter Your Email"></input>
-  <input v-model="form.firstDeath" placeholder="Who will die first?"></input>
+  <select v-model="form.firstDeath"> 
+    <option disabled value="">Who will die first?</option>
+    <option>Jon Snow</option>
+    <option>Sansa Stark</option>
+    <option>Arya Stark</option>
+    <option>Bran Stark</option>
+    <option>Jaime Lannister</option>
+    <option>Cersei Lannister</option>
+    <option>Qyburn</option>
+    <option>The Mountain</option>
+    <option>Daenerys Targaryen</option>
+    <option>Missandei</option>
+    <option>Greyworm</option>
+    <option>Tyrion Lannister</option>
+    <option>Euron Greyjoy</option>
+    <option>Yara Greyjoy</option>
+    <option>Theon Greyjoy</option>
+    <option>Samwell Tarly</option>
+    <option>Gilly</option>
+    <option>Little Sam</option>
+    <option>Beric Dondarrion</option>
+    <option>Melisandre</option>
+    <option>The Hound</option>
+    <option>Hot Pie</option>
+    <option>Varys</option>
+    <option>Brienne of Tarth</option>
+    <option>Podrick Payne</option>
+    <option>Tormund Giantsbane</option>
+    <option>Davos Seaworth</option>
+    <option>Bronn</option>
+    <option>Gendry</option>
+    <option>Meera Reed</option>
+    <option>The Night King</option>
+    <option>Viserion</option>
+    <option>Drogon</option>
+    <option>Rhaegal</option>
+  </select>
+  <span>Dying First: {{form.firstDeath}}</span>
   <input v-model="form.lastDeath" placeholder="Who will die last?"></input>
   <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
   </div>
