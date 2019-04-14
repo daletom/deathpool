@@ -381,9 +381,9 @@
   </div>
 </div>
   <div class="bonus">
-    <input v-model="form.name" placeholder="Enter Your Name"></input>
-  <input v-model="form.email" placeholder="Enter Your Email"></input>
-  <select v-model="form.firstDeath"> 
+    <input v-model="form.name" placeholder="Enter Your Name" width="200"></input>
+  <input v-model="form.email" placeholder="Enter Your Email" width="200"></input>
+  <select v-model="form.firstDeath" width="200"> 
     <option disabled value="">Who will die first?</option>
     <option>Jon Snow</option>
     <option>Sansa Stark</option>
@@ -421,7 +421,7 @@
     <option>Rhaegal</option>
   </select>
   <span>Dying First: {{form.firstDeath}}</span>
-  <select v-model="form.lastDeath"> 
+  <select v-model="form.lastDeath" width="200"> 
     <option disabled value="">Who will die last?</option>
     <option>Jon Snow</option>
     <option>Sansa Stark</option>
@@ -459,7 +459,7 @@
     <option>Rhaegal</option>
   </select>
   <span>Dying Last: {{form.ironThrone}}</span>
-  <select v-model="form.ironThrone"> 
+  <select v-model="form.ironThrone" width="200"> 
     <option disabled value="">Who will sit on the Iron Throne?</option>
     <option>Jon Snow</option>
     <option>Sansa Stark</option>
