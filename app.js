@@ -124,7 +124,7 @@ new Vue({
         this.form,
         {}
       ).then((data) => {
-        alert("Thank you for submitting your choices.  Your entries have been recorded.")
+        alert("Thank you for submitting your choices.  Your entries have been recorded. You can return to this website at 8pm to see people's choices.")
       });
     }
   }
