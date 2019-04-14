@@ -385,6 +385,7 @@
     <input v-model="form.name" placeholder="Enter Your Name"></input>
     <input v-model="form.email" placeholder="Enter Your Email"></input>
     </div>
+    <div>
   <select v-model="form.firstDeath" width="200"> 
     <option disabled value="">Who will die first?</option>
     <option>Jon Snow</option>
@@ -461,6 +462,8 @@
     <option>Rhaegal</option>
   </select>
   <span>Dying Last: {{form.ironThrone}}</span>
+  </div>
+  <div>
   <select v-model="form.ironThrone" width="200"> 
     <option disabled value="">Who will sit on the Iron Throne?</option>
     <option>Jon Snow</option>
@@ -498,6 +501,7 @@
     <option>Drogon</option>
     <option>Rhaegal</option>
   </select>
+</div>
   <span>Iron Throne: {{form.ironThrone}}</span>
   <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
   </div>
