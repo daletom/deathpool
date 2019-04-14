@@ -192,6 +192,16 @@
       <h2 color=white>{{samwellName}}</h2>
   </div>
   <div class="indiv">
+        <div class="switch-field">
+          <input v-model="form.jorahDeath" type="radio" name="jorahlifeswitch" value="life" id="jorahbutton1" checked />
+              <label for="jorahbutton1">He Lives</label>
+          <input v-model="form.jorahDeath" type="radio" name="jorahdeathswitch" value="death" id="jorahbutton2" />
+          <label for="jorahbutton2">He Dies</label>
+            </div>
+      <img v-bind:src="avatarJorah"/> 
+      <h2 color=white>{{jorahName}}</h2>
+  </div>
+  <div class="indiv">
     <div class="switch-field">
           <input v-model="form.gillyDeath" type="radio" name="gillylifeswitch" value="life" id="gillybutton1" checked />
               <label for="gillybutton1">She Lives</label>
@@ -404,6 +414,7 @@
     <option>Yara Greyjoy</option>
     <option>Theon Greyjoy</option>
     <option>Samwell Tarly</option>
+    <option>Jorah Mormont</option>
     <option>Gilly</option>
     <option>Little Sam</option>
     <option>Beric Dondarrion</option>
@@ -442,6 +453,7 @@
     <option>Yara Greyjoy</option>
     <option>Theon Greyjoy</option>
     <option>Samwell Tarly</option>
+    <option>Jorah Mormont</option>
     <option>Gilly</option>
     <option>Little Sam</option>
     <option>Beric Dondarrion</option>
@@ -482,6 +494,7 @@
     <option>Yara Greyjoy</option>
     <option>Theon Greyjoy</option>
     <option>Samwell Tarly</option>
+    <option>Jorah Mormont</option>
     <option>Gilly</option>
     <option>Little Sam</option>
     <option>Beric Dondarrion</option>
