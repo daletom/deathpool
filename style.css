@@ -253,3 +253,8 @@ li {
   font-size: 28px;
 }
 
+textarea, input {
+  width: 300;
+  height: 50;
+}
+
