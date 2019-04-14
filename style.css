@@ -271,9 +271,4 @@ span {
   background-color: white;
 }
 
-@media (max-width: 500px) {
-  img {
-    width: 100px;
-  }
-}
 
