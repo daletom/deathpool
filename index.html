@@ -243,6 +243,16 @@
     <img v-bind:src="avatarHound"/>
     <h2>{{houndName}}</h2>
   </div>
+  <div class="indiv">
+    <div class="switch-field">
+          <input v-model="form.hotpieDeath" type="radio" name="hotpielifeswitch" value="life" id="hotpiebutton1" checked />
+              <label for="hotpiebutton1">He Lives</label>
+          <input v-model="form.hotpieDeath" type="radio" name="hotpiedeathswitch" value="death" id="hotpiebutton2" />
+          <label for="hotpiebutton2">He Dies</label>
+            </div>
+    <img v-bind:src="avatarHotpie"/>
+    <h2>{{hotpieName}}</h2>
+  </div>
   </div>
   <div class="misc">
   <div class="indiv">
@@ -411,7 +421,82 @@
     <option>Rhaegal</option>
   </select>
   <span>Dying First: {{form.firstDeath}}</span>
-  <input v-model="form.lastDeath" placeholder="Who will die last?"></input>
+  <select v-model="form.lastDeath"> 
+    <option disabled value="">Who will die last?</option>
+    <option>Jon Snow</option>
+    <option>Sansa Stark</option>
+    <option>Arya Stark</option>
+    <option>Bran Stark</option>
+    <option>Jaime Lannister</option>
+    <option>Cersei Lannister</option>
+    <option>Qyburn</option>
+    <option>The Mountain</option>
+    <option>Daenerys Targaryen</option>
+    <option>Missandei</option>
+    <option>Greyworm</option>
+    <option>Tyrion Lannister</option>
+    <option>Euron Greyjoy</option>
+    <option>Yara Greyjoy</option>
+    <option>Theon Greyjoy</option>
+    <option>Samwell Tarly</option>
+    <option>Gilly</option>
+    <option>Little Sam</option>
+    <option>Beric Dondarrion</option>
+    <option>Melisandre</option>
+    <option>The Hound</option>
+    <option>Hot Pie</option>
+    <option>Varys</option>
+    <option>Brienne of Tarth</option>
+    <option>Podrick Payne</option>
+    <option>Tormund Giantsbane</option>
+    <option>Davos Seaworth</option>
+    <option>Bronn</option>
+    <option>Gendry</option>
+    <option>Meera Reed</option>
+    <option>The Night King</option>
+    <option>Viserion</option>
+    <option>Drogon</option>
+    <option>Rhaegal</option>
+  </select>
+  <span>Dying Last: {{form.ironThrone}}</span>
+  <select v-model="form.ironThrone"> 
+    <option disabled value="">Who will sit on the Iron Throne?</option>
+    <option>Jon Snow</option>
+    <option>Sansa Stark</option>
+    <option>Arya Stark</option>
+    <option>Bran Stark</option>
+    <option>Jaime Lannister</option>
+    <option>Cersei Lannister</option>
+    <option>Qyburn</option>
+    <option>The Mountain</option>
+    <option>Daenerys Targaryen</option>
+    <option>Missandei</option>
+    <option>Greyworm</option>
+    <option>Tyrion Lannister</option>
+    <option>Euron Greyjoy</option>
+    <option>Yara Greyjoy</option>
+    <option>Theon Greyjoy</option>
+    <option>Samwell Tarly</option>
+    <option>Gilly</option>
+    <option>Little Sam</option>
+    <option>Beric Dondarrion</option>
+    <option>Melisandre</option>
+    <option>The Hound</option>
+    <option>Hot Pie</option>
+    <option>Varys</option>
+    <option>Brienne of Tarth</option>
+    <option>Podrick Payne</option>
+    <option>Tormund Giantsbane</option>
+    <option>Davos Seaworth</option>
+    <option>Bronn</option>
+    <option>Gendry</option>
+    <option>Meera Reed</option>
+    <option>The Night King</option>
+    <option>Viserion</option>
+    <option>Drogon</option>
+    <option>Rhaegal</option>
+  </select>
+  <span>Iron Throne: {{form.ironThrone}}</span>
   <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
   </div>
   </form>

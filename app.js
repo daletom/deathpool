@@ -44,6 +44,8 @@ new Vue({
       avatarBeric: 'https://tom.imgix.net/bericdondarrion.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       houndName: 'The Hound',
       avatarHound: 'https://tom.imgix.net/sandorclegane.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
+      hotpieName: 'Hot Pie',
+      avatarHotpie: 'https://tom.imgix.net/hotpie.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       gendryName: 'Gendry',
       avatarGendry: 'https://tom.imgix.net/gendry.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       varysName: 'Varys',
@@ -94,6 +96,7 @@ new Vue({
         samDeath: '',
         bericDeath: '',
         houndDeath: '',
+        hotpieDeath: '',
         varysDeath: '',
         brienneDeath: '',
         podrickDeath: '',
@@ -108,7 +111,8 @@ new Vue({
         rhaegalDeath: '',
         viserionDeath: '',
         firstDeath: '',
-        lastDeath: ''
+        lastDeath: '',
+        ironThrone: ''
       }
     }
   },
