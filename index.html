@@ -22,9 +22,6 @@
   </div>
 <div id="app_deathpool">
   <form v-on:submit.prevent="post" class="chooser">
-    <input v-model="form.name" placeholder="Enter Your Name"></input>
-  <input v-model="form.code" placeholder="Enter Deathpool Code"></input>
-  <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
     <div class="stark">
   <div class="indiv">
         <div class="switch-field">
@@ -371,6 +368,11 @@
             </div>
     <img v-bind:src="avatarRhaegal"/>
     <h2>{{rhaegalName}}</h2>
+  </div>
+  <div class="misc">
+    <input v-model="form.name" placeholder="Enter Your Name"></input>
+  <input v-model="form.email" placeholder="Enter Your Email"></input>
+  <input id="registerForm" name="registerForm" type="submit" value="Submit Entry">
   </div>
   </div>
   </form>

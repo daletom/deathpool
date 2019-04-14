@@ -72,7 +72,7 @@ new Vue({
       avatarViserion: 'https://tom.imgix.net/viserion.jpg?w=300&h=300&fit=facearea&facepad=1.7&auto=format,compress&mask=ellipse',
       form: {
         name: '',
-        code: '',
+        email: '',
         jonDeath: '',
         sansaDeath: '',
         aryaDeath: '',
